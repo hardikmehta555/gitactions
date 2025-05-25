@@ -1,4 +1,5 @@
 name: Email Test Workflow
+
 on:
   push:
     branches: [main]
@@ -8,5 +9,5 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      name: 22f3000658@ds.study.iitm.ac.in
-      run: echo "Hello, world!"
+      - name: 22f3000658@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
